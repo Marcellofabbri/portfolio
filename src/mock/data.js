@@ -2,56 +2,62 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Marcello Fabbri', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: 'Marcello Fabbri',
   name: '',
-  subtitle: '',
-  cta: '',
+  subtitle: 'Software developer',
+  cta: 'more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'mf.jpg',
+  paragraphOne:
+    "I delved into the world of programming in late '19, when I joined the London Makers Academy bootcamp which I completed this past spring. I was able to develop the necessary skills to go and blaze a trail for myself in the tech industry, and whilst the current recession hinders the quest for the perfect position I'm on, I remain concentrated on my personal projects. My focus is on my agility, learning speed, and good range of knowledge",
+  paragraphTwo:
+    "Before my career change I had been working in hospitality from '13 to '19. I worked in a few restaurants and I went from inexperienced waiter to general manager in four years, and spent two further years covering that position in a busy establishment within Waterloo Station, earning a wealth of experience in problem solving, quick thinking, organization, and certainly building stamina.",
+  paragraphThree:
+    "I grew up in Northern Italy and lived there till '13, and during my time there I completed my studies and attained a bachelor degree in Environmental Science at University of Bologna.",
+  resume:
+    'https://docs.google.com/document/d/e/2PACX-1vR9VSexZvZYLf84iRwZFR2sBwppa4q61QSa3ffU1zyfW4RJBswP1boMsPDveNASpGAqYr5zqOE3iRRl/pub', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'covid-19-tracker-3-screens.png',
+    title: 'COVID-19 TRACKER',
+    info: 'Mobile App',
+    info2:
+      "An app for tracking figures from each country regarding the pandemic. Developed in Flutter, coded in Dart, the app fetches its daily figures from a public API, and get historic figures (for chart drawing) from another online resource.\nThanks to Flutter it's easy to compile both an APK for Android or an IPA for iOS, however coronavirus apps cannot be published under current T&C from all major app outlets.",
+    repo: 'https://github.com/Marcellofabbri/Covid-19-App', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'dailyroadmap-4-screens-header.png',
+    title: 'DAILY ROAD MAP',
+    info: 'Mobile App',
+    info2:
+      'An app for visualizing one\'s daily schedule in the form of a "subway-style" map. Developed in Java, and structured with MVVM architecture, this second app proves to be much more maintainable and expandable than my first one. Currently available on Google Play.',
+    url: 'https://play.google.com/store/apps/details?id=eu.marcellofabbri.dailyroadmap',
+    repo: 'https://github.com/Marcellofabbri/dailyroadmap', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'trender-uc.png',
+    title: 'TRENDER',
+    info: 'Web App',
+    info2:
+      'This full stack web app aims to make visualization of personal records easy by adding custom data and seeing it rendered as a chart. It employs a Postgres database, a Java (Spring Boot) back end, and a React frontend, and deployment is on Heroku. It is currently under development and the frontend needs more time.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Marcellofabbri/trender', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +65,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'marcellogfabbri@gmail.com',
 };
 
 // FOOTER DATA
