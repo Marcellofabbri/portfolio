@@ -17,11 +17,11 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'mf.jpg',
+  img: '2.png',
   paragraphOne:
-    "I delved into the world of programming in late '19, when I joined the London Makers Academy bootcamp which I completed this past spring. I was able to develop the necessary skills to go and blaze a trail for myself in the tech industry, and whilst the current recession hinders the quest for the perfect position I'm on, I remain concentrated on my personal projects. My focus is on my agility, learning speed, and good range of knowledge",
+    "I delved into the world of programming in late '19, when I joined the London Makers Academy bootcamp, which I completed this past spring. I was able to develop the necessary skills to go and blaze a trail for myself in the tech industry, and whilst the current recession hinders my quest for the perfect position, I remain concentrated on my personal projects. My focus is on my agility, my learning speed, and a good range of knowledge",
   paragraphTwo:
-    "Before my career change I had been working in hospitality from '13 to '19. I worked in a few restaurants and I went from inexperienced waiter to general manager in four years, and spent two further years covering that position in a busy establishment within Waterloo Station, earning a wealth of experience in problem solving, quick thinking, organization, and certainly building stamina.",
+    "Before my career change, I had been working in hospitality from '13 to '19. I worked in a few restaurants and I went from inexperienced waiter to general manager in four years, and spent two further years covering that position in a busy establishment within Waterloo Station, earning a wealth of experience in problem solving, quick thinking, organization, and, certainly, building stamina.",
   paragraphThree:
     "I grew up in Northern Italy and lived there till '13, and during my time there I completed my studies and attained a bachelor degree in Environmental Science at University of Bologna.",
   resume:
@@ -55,7 +55,7 @@ export const projectsData = [
     title: 'TRENDER',
     info: 'Web App',
     info2:
-      'This full stack web app aims to make visualization of personal records easy by adding custom data and seeing it rendered as a chart. It employs a Postgres database, a Java (Spring Boot) back end, and a React frontend, and deployment is on Heroku. It is currently under development and the frontend needs more time.',
+      'This full stack web app aims to make visualization of personal records easy by adding custom data and seeing it rendered as a chart. It employs a Postgres database, a Java (Spring Boot) back end, and a React+Redux frontend, and the deployment will be on Heroku. It is currently under development. It will be accessible soon.',
     url: '',
     repo: 'https://github.com/Marcellofabbri/trender', // if no repo, the button will not show up
   },

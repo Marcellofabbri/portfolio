@@ -23,6 +23,22 @@ const Contact = () => {
             >
               {btn || 'Email me'}
             </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cta-btn cta-btn--resume"
+              href="https://github.com/Marcellofabbri"
+            >
+              {btn || 'Github'}
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cta-btn cta-btn--resume"
+              href="https://www.linkedin.com/in/marcellofabbri/"
+            >
+              {btn || 'LinkedIn'}
+            </a>
           </div>
         </Fade>
       </Container>
