@@ -51,7 +51,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'trender-uc.png',
+    img: 'trender-end.png',
     title: 'TRENDER',
     info: 'Web App',
     info2:
