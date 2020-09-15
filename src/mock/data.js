@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile-pic-2.png',
+  img: 'profile-pic-3.png',
   paragraphOne:
     "I delved into the world of programming in late '19, when I joined the London Makers Academy bootcamp, which I completed this past spring. I was able to develop the necessary skills to go and blaze a trail for myself in the tech industry, and whilst the current recession hinders my quest for the perfect position, I remain concentrated on my personal projects. My focus is on my agility, my learning speed, and a good range of knowledge",
   paragraphTwo:
@@ -60,7 +60,7 @@ export const projectsData = [
       'This full stack web app tries to make visualization of personal records easy by adding custom data and seeing it rendered as a chart. It employs a Postgres database, a Java (Spring Boot) back end, and a React+Redux frontend. I experimented with Docker to containerize this app',
     url: '',
     repo: 'https://github.com/Marcellofabbri/trender', // if no repo, the button will not show up,
-    video: 'https://youtu.be/KZCznppGNCg',
+    video: 'https://youtu.be/s5QB92owk0Q',
   },
 ];
 
