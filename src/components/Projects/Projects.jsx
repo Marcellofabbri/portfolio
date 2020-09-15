@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, repo, img, id, video } = project;
 
             return (
               <Row key={id}>
@@ -60,6 +60,17 @@ const Projects = () => {
                         </a>
                       ) : null}
 
+                      {video ? (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--hero"
+                          href={video || '#!'}
+                        >
+                          Demo
+                        </a>
+                      ) : null}
+
                       {repo && (
                         <a
                           target="_blank"
@@ -83,7 +94,7 @@ const Projects = () => {
                   >
                     <div className="project-wrapper__image">
                       <a
-                        href={url || '#!'}
+                        href={video || '#!'}
                         target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"

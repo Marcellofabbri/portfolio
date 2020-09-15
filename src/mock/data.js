@@ -12,7 +12,7 @@ export const heroData = {
   title: 'Marcello Fabbri',
   name: '',
   subtitle: 'Software developer',
-  cta: 'more',
+  cta: 'EXPLORE',
 };
 
 // ABOUT DATA
@@ -36,8 +36,9 @@ export const projectsData = [
     title: 'COVID-19 TRACKER',
     info: 'Mobile App',
     info2:
-      "An app for tracking figures from each country regarding the pandemic. Developed in Flutter, coded in Dart, the app fetches its daily figures from a public API, and get historic figures (for chart drawing) from another online resource.\nThanks to Flutter it's easy to compile both an APK for Android or an IPA for iOS, however coronavirus apps cannot be published under current T&C from all major app outlets.",
+      'An app for tracking figures from each country regarding the pandemic. Developerd in Flutter, in the language Dart. Daily figures fetched from a free API. Alternative country names taken into account. Interactive charts built by gathering historic data from another API. Not allowed for publishing as per T&C re: coronavirus apps on all mobile outlets',
     repo: 'https://github.com/Marcellofabbri/Covid-19-App', // if no repo, the button will not show up
+    video: 'https://www.youtube.com/watch?v=VhD25VmOOTg',
   },
   {
     id: nanoid(),
@@ -48,6 +49,7 @@ export const projectsData = [
       'An app for visualizing one\'s daily schedule in the form of a "subway-style" map. Developed in Java, and structured with MVVM architecture, this second app proves to be much more maintainable and expandable than my first one. Currently available on Google Play.',
     url: 'https://play.google.com/store/apps/details?id=eu.marcellofabbri.dailyroadmap',
     repo: 'https://github.com/Marcellofabbri/dailyroadmap', // if no repo, the button will not show up
+    video: '',
   },
   {
     id: nanoid(),
@@ -55,9 +57,10 @@ export const projectsData = [
     title: 'TRENDER',
     info: 'Web App',
     info2:
-      'This full stack web app aims to make visualization of personal records easy by adding custom data and seeing it rendered as a chart. It employs a Postgres database, a Java (Spring Boot) back end, and a React+Redux frontend, and the deployment will be on Heroku. It is currently under development. It will be accessible soon.',
+      'This full stack web app tries to make visualization of personal records easy by adding custom data and seeing it rendered as a chart. It employs a Postgres database, a Java (Spring Boot) back end, and a React+Redux frontend. I experimented with Docker to containerize this app',
     url: '',
-    repo: 'https://github.com/Marcellofabbri/trender', // if no repo, the button will not show up
+    repo: 'https://github.com/Marcellofabbri/trender', // if no repo, the button will not show up,
+    video: 'https://youtu.be/KZCznppGNCg',
   },
 ];
 
