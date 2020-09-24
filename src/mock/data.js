@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile-pic-3.png',
+  img: 'Github1.jpg',
   paragraphOne:
     "I delved into the world of programming in late '19, when I joined the London Makers Academy bootcamp, which I completed this past spring. I was able to develop the necessary skills to go and blaze a trail for myself in the tech industry, and whilst the current recession hinders my quest for the perfect position, I remain concentrated on my personal projects. My focus is on my agility, my learning speed, and a good range of knowledge",
   paragraphTwo:
