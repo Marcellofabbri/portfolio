@@ -19,13 +19,13 @@ export const heroData = {
 export const aboutData = {
   img: 'Github1.jpg',
   paragraphOne:
-    "I delved into the world of programming in late '19, when I joined the London Makers Academy bootcamp, which I completed this past spring. I was able to develop the necessary skills to go and blaze a trail for myself in the tech industry, and whilst the current recession hinders my quest for the perfect position, I remain concentrated on my personal projects. My focus is on my agility, my learning speed, and a good range of knowledge",
+    "I delved into the world of programming in late '19, when I joined the London Makers Academy bootcamp, which I completed this past spring. I was able to develop the necessary skills to continue learning afterwards, and whilst the current recession hinders my quest for the perfect position, I remain concentrated on my personal projects. My focus is on my agility, my learning speed, and a good range of knowledge and adaptability",
   paragraphTwo:
-    "Before my career change, I had been working in hospitality from '13 to '19. I worked in a few restaurants and I went from inexperienced waiter to general manager in four years, and spent two further years covering that position in a busy establishment within Waterloo Station, earning a wealth of experience in problem solving, quick thinking, organization, and, certainly, building stamina.",
+    "Before my career change, I had been working in hospitality from '13 to '19. I worked in restaurants and went from inexperienced waiter to general manager in four years, and spent two further years covering that position in a busy establishment within Waterloo Station, earning a wealth of experience in problem solving, quick thinking, organization, and, certainly, building stamina and relentless patience.",
   paragraphThree:
     "I grew up in Northern Italy and lived there till '13, and during my time there I completed my studies and attained a bachelor degree in Environmental Science at University of Bologna.",
   resume:
-    'https://docs.google.com/document/d/e/2PACX-1vR9VSexZvZYLf84iRwZFR2sBwppa4q61QSa3ffU1zyfW4RJBswP1boMsPDveNASpGAqYr5zqOE3iRRl/pub', // if no resume, the button will not show up
+    'https://docs.google.com/document/d/e/2PACX-1vRWeyAgUsvXAXhnNb_f-z73dYtrUoTvikxXIOBypVSjz6wITYR3cV2LdJZYUDCCD-0VIm1IBQ8MHh5t/pub', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
