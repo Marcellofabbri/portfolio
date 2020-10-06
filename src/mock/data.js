@@ -34,7 +34,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'covid-19-tracker-3-screens.png',
     title: 'COVID-19 TRACKER',
-    info: 'Mobile App',
+    info: 'MOBILE',
+    tech: 'Flutter - Dart',
     info2:
       'An app for tracking figures from each country regarding the pandemic. Developerd in Flutter, in the language Dart. Daily figures fetched from a free API. Alternative country names taken into account. Interactive charts built by gathering historic data from another API. Not allowed for publishing as per T&C re: coronavirus apps on all mobile outlets',
     repo: 'https://github.com/Marcellofabbri/Covid-19-App', // if no repo, the button will not show up
@@ -44,23 +45,37 @@ export const projectsData = [
     id: nanoid(),
     img: 'dailyroadmap-4-screens-header.png',
     title: 'DAILY ROAD MAP',
-    info: 'Mobile App',
+    info: 'MOBILE',
+    tech: 'SQLite - Java (Android) - MVVM',
     info2:
       'An app for visualizing one\'s daily schedule in the form of a "subway-style" map. Developed in Java, and structured with MVVM architecture, this second app proves to be much more maintainable and expandable than my first one. Currently available on Google Play.',
-    url: 'https://play.google.com/store/apps/details?id=eu.marcellofabbri.dailyroadmap',
     repo: 'https://github.com/Marcellofabbri/dailyroadmap', // if no repo, the button will not show up
     video: '',
+    googlePlay: 'https://play.google.com/store/apps/details?id=eu.marcellofabbri.dailyroadmap',
   },
   {
     id: nanoid(),
     img: 'trender-end.png',
     title: 'TRENDER',
-    info: 'Web App',
+    info: 'WEB',
+    tech: 'Postgres - Java (Spring Boot) - React - Redux - Docker',
     info2:
-      'This full stack web app tries to make visualization of personal records easy by adding custom data and seeing it rendered as a chart. It employs a Postgres database, a Java (Spring Boot) back end, and a React+Redux frontend. I experimented with Docker to containerize this app',
+      'This full stack web app tries to make visualization of personal records easy by adding custom data and seeing it rendered as a chart. It employs a Postgres database, a Java (Spring Boot) back end, and a React+Redux frontend. I experimented with Docker to containerize this app.',
     url: '',
     repo: 'https://github.com/Marcellofabbri/trender', // if no repo, the button will not show up,
     video: 'https://youtu.be/s5QB92owk0Q',
+  },
+  {
+    id: nanoid(),
+    img: 'fitnessstand-4-screens-header.png',
+    title: 'FITNESS STAND',
+    info: 'MOBILE',
+    tech: 'SQLite - Java (Android) - MVVM',
+    info2:
+      "This app will testify about the user's fitness consistency and how they are faring against self set standards. In time, the calendar will show the distribution of workout sessions and the Stats panel will provide an indication of the user's tendency.",
+    url: '',
+    repo: 'https://github.com/Marcellofabbri/fitnessStand_android', // if no repo, the button will not show up,
+    video: '',
   },
 ];
 

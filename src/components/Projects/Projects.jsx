@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id, video } = project;
+            const { title, info, tech, info2, url, repo, img, id, video, googlePlay } = project;
 
             return (
               <Row key={id}>
@@ -47,6 +47,7 @@ const Projects = () => {
                           {info ||
                             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                         </p>
+                        <p>{tech || 'tech'}</p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
                       {url ? (
@@ -57,6 +58,16 @@ const Projects = () => {
                           href={url || '#!'}
                         >
                           App
+                        </a>
+                      ) : null}
+
+                      {googlePlay ? (
+                        <a href={googlePlay || '#!'}>
+                          <img
+                            height="35"
+                            alt="GooglePlay"
+                            src="https://lh3.googleusercontent.com/cjsqrWQKJQp9RFO7-hJ9AfpKzbUb_Y84vXfjlP0iRHBvladwAfXih984olktDhPnFqyZ0nu9A5jvFwOEQPXzv7hr3ce3QVsLN8kQ2Ao=s0"
+                          />
                         </a>
                       ) : null}
 

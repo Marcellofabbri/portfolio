@@ -20,7 +20,8 @@ const Footer = () => {
         </span>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()}This Gatsby website is based on a template by Jacobo Martinez:{' '}
+          © {new Date().getFullYear()} This Gatsby website is based on a template by Jacobo
+          Martinez: . Google Play and the Google Play logo are trademarks of Google LLC.
           <a
             href="https://github.com/cobidev/gatsby-simplefolio"
             target="_blank"
