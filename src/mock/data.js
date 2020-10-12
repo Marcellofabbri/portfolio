@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: 'Github1.jpg',
   paragraphOne:
-    "I delved into the world of programming in late '19, when I joined the London Makers Academy bootcamp, which I completed this past spring. I was able to develop the necessary skills to continue learning afterwards, and whilst the current recession hinders my quest for the perfect position, I remain concentrated on my personal projects. My focus is on my agility, my learning speed, and a good range of knowledge and adaptability",
+    "I delved into the world of programming in late '19, when I joined the London Makers Academy bootcamp, which I completed this past spring. I was able to develop the necessary skills to continue learning afterwards and work on a number of personal projects to expand my horizons. My focus is on my agility, my learning speed, and a good range of knowledge and adaptability",
   paragraphTwo:
-    "Before my career change, I had been working in hospitality from '13 to '19. I worked in restaurants and went from inexperienced waiter to general manager in four years, and spent two further years covering that position in a busy establishment within Waterloo Station, earning a wealth of experience in problem solving, quick thinking, organization, and, certainly, building stamina and relentless patience.",
+    "Before my career change, I had been working in hospitality from '13 to '19. I worked in restaurants and went from waiter to general manager in four years, and spent two further years covering that position in a busy establishment within Waterloo Station, earning a wealth of experience in problem solving, quick thinking, organization, and, certainly, building stamina and relentless patience.",
   paragraphThree:
     "I grew up in Northern Italy and lived there till '13, and during my time there I completed my studies and attained a bachelor degree in Environmental Science at University of Bologna.",
   resume:
