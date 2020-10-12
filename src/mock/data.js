@@ -76,6 +76,8 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/Marcellofabbri/fitnessStand_android', // if no repo, the button will not show up,
     video: '',
+    googlePlay:
+      'https://play.google.com/store/apps/details?id=eu.marcellofabbri.fitnessstandandroid',
   },
 ];
 
